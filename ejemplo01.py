@@ -6,4 +6,5 @@ print("Tu indice de masa corporal es:" + str(imc))
 
 if imc<16:
     print("Criterio de ingreso a hospital")
-elif imc>
+elif imc>=16 and imc<=17:
+    print("Infrapeso")
